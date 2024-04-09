@@ -1,0 +1,14 @@
+C:\HelloWorld\.NET\Hola-Mundo\bin\Debug\net8.0\Hola-Mundo.exe
+C:\HelloWorld\.NET\Hola-Mundo\bin\Debug\net8.0\Hola-Mundo.deps.json
+C:\HelloWorld\.NET\Hola-Mundo\bin\Debug\net8.0\Hola-Mundo.runtimeconfig.json
+C:\HelloWorld\.NET\Hola-Mundo\bin\Debug\net8.0\Hola-Mundo.dll
+C:\HelloWorld\.NET\Hola-Mundo\bin\Debug\net8.0\Hola-Mundo.pdb
+C:\HelloWorld\.NET\Hola-Mundo\obj\Debug\net8.0\Hola-Mundo.GeneratedMSBuildEditorConfig.editorconfig
+C:\HelloWorld\.NET\Hola-Mundo\obj\Debug\net8.0\Hola-Mundo.AssemblyInfoInputs.cache
+C:\HelloWorld\.NET\Hola-Mundo\obj\Debug\net8.0\Hola-Mundo.AssemblyInfo.cs
+C:\HelloWorld\.NET\Hola-Mundo\obj\Debug\net8.0\Hola-Mundo.csproj.CoreCompileInputs.cache
+C:\HelloWorld\.NET\Hola-Mundo\obj\Debug\net8.0\Hola-Mundo.dll
+C:\HelloWorld\.NET\Hola-Mundo\obj\Debug\net8.0\refint\Hola-Mundo.dll
+C:\HelloWorld\.NET\Hola-Mundo\obj\Debug\net8.0\Hola-Mundo.pdb
+C:\HelloWorld\.NET\Hola-Mundo\obj\Debug\net8.0\Hola-Mundo.genruntimeconfig.cache
+C:\HelloWorld\.NET\Hola-Mundo\obj\Debug\net8.0\ref\Hola-Mundo.dll

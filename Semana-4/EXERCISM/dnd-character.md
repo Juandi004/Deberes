@@ -1,0 +1,4 @@
+Este código define una clase llamada `DnDCharacter` que representa un personaje de Dungeons & Dragons. Tiene propiedades para las habilidades de fuerza, destreza, constitución, inteligencia, sabiduría y carisma, así como puntos de golpe. En su constructor, inicializa estas propiedades generando valores aleatorios para las habilidades usando el método `generateAbilityScore()` y calcula los puntos de golpe basados en la constitución. Los métodos estáticos `generateAbilityScore()` y `getModifierFor()` se utilizan para generar valores aleatorios para las habilidades y calcular modificadores de habilidad, respectivamente.
+
+
+Video: https://www.youtube.com/watch?v=U0xx7lSlqOA

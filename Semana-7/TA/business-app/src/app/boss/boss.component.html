@@ -1,0 +1,11 @@
+<div>
+  <h2>Boss</h2>
+  <input nz-input [(ngModel)]="newOrderDescription" placeholder="Order description" />
+  <button nz-button nzType="primary" (click)="addOrder()">Add Order</button>
+
+  <ul>
+    <li *ngFor="let order of orders">
+      <app-employee [order]="order"></app-employee>
+    </li>
+  </ul>
+</div>

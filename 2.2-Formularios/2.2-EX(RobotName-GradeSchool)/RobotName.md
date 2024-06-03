@@ -1,0 +1,3 @@
+Este código define una clase Robot que genera nombres únicos para cada instancia de robot. La clase mantiene una lista de todos los nombres de robots utilizados hasta el momento y proporciona métodos para asignar nombres nuevos y liberar los nombres existentes. Cada vez que se crea una instancia de Robot, se le asigna un nombre único generado aleatoriamente y se agrega a la lista de nombres utilizados. El método resetName() se encarga de generar un nuevo nombre único, asegurándose de que no se repita. El método estático releaseNames() imprime todos los nombres de robots utilizados hasta el momento.
+
+Link del video: https://www.youtube.com/watch?v=ibH25RumdgY

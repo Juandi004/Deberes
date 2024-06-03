@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/antd/4.16.13/antd.min.css" />
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .form-container {
+            background-color: #f0f2f5;
+            border-radius: 8px;
+            width: 45%;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="form-container">
+        <h1>Create Product</h1>
+        <form nz-form [formGroup]="createForm" (ngSubmit)="submitCreateForm()">
+            <nz-form-item>
+                <nz-form-label [nzSpan]="7" nzRequired>Product Name</nz-form-label>
+                <nz-form-control [nzSpan]="12">
+                    <input nz-input formControlName="productName" placeholder="Apple" />
+                </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+                <nz-form-label [nzSpan]="7" nzRequired>Description</nz-form-label>
+                <nz-form-control [nzSpan]="12">
+                    <input nz-input formControlName="description" placeholder="A delicious fruit" />
+                </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+                <nz-form-label [nzSpan]="7" nzRequired>Quantity In Stock</nz-form-label>
+                <nz-form-control [nzSpan]="12">
+                    <input nz-input formControlName="quantityInStock" placeholder="20" />
+                </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+                <nz-form-label [nzSpan]="7" nzRequired>Unit Price</nz-form-label>
+                <nz-form-control [nzSpan]="12">
+                    <input nz-input formControlName="unitPrice" placeholder="$0.50" />
+                </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+                <nz-form-control [nzXs]="{ span: 24, offset: 0 }" [nzSm]="{ span: 16, offset: 8 }">
+                    <button nz-button nzType="primary">Submit</button>
+                </nz-form-control>
+            </nz-form-item>
+        </form>
+    </div>
+
+    <div class="form-container">
+        <h1>Edit Product</h1>
+        <form nz-form [formGroup]="editForm" (ngSubmit)="submitEditForm()">
+            <nz-form-item>
+                <nz-form-label [nzSpan]="7" nzRequired>Search Product Name</nz-form-label>
+                <nz-form-control [nzSpan]="12">
+                    <input nz-input formControlName="productNameSearch" placeholder="Apple" />
+                </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+                <nz-form-label [nzSpan]="7" nzRequired>Edit Price</nz-form-label>
+                <nz-form-control [nzSpan]="12">
+                    <input nz-input formControlName="editedPrice" placeholder="0.50" />
+                </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+                <nz-form-label [nzSpan]="7" nzRequired>Edit Quantity In Stock</nz-form-label>
+                <nz-form-control [nzSpan]="12">
+                    <input nz-input formControlName="editQuantityInStock" placeholder="20" />
+                </nz-form-control>
+            </nz-form-item>
+            <nz-form-item>
+                <nz-form-control [nzXs]="{ span: 24, offset: 0 }" [nzSm]="{ span: 16, offset: 8 }">
+                    <button nz-button nzType="primary">Submit</button>
+                </nz-form-control>
+            </nz-form-item>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>

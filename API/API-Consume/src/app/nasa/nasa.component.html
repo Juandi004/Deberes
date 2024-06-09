@@ -1,0 +1,7 @@
+<nz-card *ngIf="apod" [nzTitle]="apod.title" [nzCover]="coverTemplate">
+    <ng-template #coverTemplate>
+      <img alt="example" [src]="apod.url" />
+    </ng-template>
+    <p>{{ apod.explanation }}</p>
+  </nz-card>
+  
